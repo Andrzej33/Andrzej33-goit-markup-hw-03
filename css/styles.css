@@ -1,3 +1,5 @@
+/* html{box-sizing: border-box;}
+*,*::before,*::after{box-sizing: inherit;} */
 :root {
   --primary-text-color: #757575;
   --accent-color: #2196f3;
@@ -9,6 +11,7 @@
 body {
   font-family: "roboto", sans-serif;
   color: #757575;
+  margin: 0;
 }
 ul {
   list-style: none;
@@ -16,6 +19,8 @@ ul {
 .link {
   text-decoration: none;
 }
+/* .section{padding-top: 94px;
+padding-bottom: 94px;} */
 /* h1,h2,h3,h4,h5,h6[color:var(#212121);] */
 /* ------------HEADER------------ */
 .header-logo,.footer-logo {
