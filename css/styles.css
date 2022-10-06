@@ -8,17 +8,35 @@
   --primary-title-color: #212121;
   --bkg-footer-color: #2f303a;
 }
+
+p,h1,h2,h3,h4,h5,h6{margin: 0;}
+
+ul{margin: 0;
+padding-left: 0;}
+
+button{cursor: pointer;}
+
+address{font-style: normal;}
+
+img{display: block;}
+
 body {
   font-family: "roboto", sans-serif;
   color: #757575;
   margin: 0;
 }
+
 ul {
   list-style: none;
 }
 .link {
   text-decoration: none;
 }
+
+.container{width: 1200px;
+padding-left: 15px;
+padding-right: 15px;}
+
 /* .section{padding-top: 94px;
 padding-bottom: 94px;} */
 /* h1,h2,h3,h4,h5,h6[color:var(#212121);] */
