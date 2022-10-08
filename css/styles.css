@@ -178,6 +178,10 @@ background-color: rgb(38, 187, 33);}
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.benefits-list{display: flex;
+}
+
 .benefits-item:not(:last-child)
 {margin-right: 30px;}
 
@@ -206,7 +210,8 @@ background-color: yellow;}
 /* .work-item::not(:last-child) {
   margin-right: 30px;
 } */
-
+.work-list{display: flex;
+gap: 30px;}
 .work-title,
 .crew-title {
   font-weight: 700;
@@ -220,9 +225,10 @@ background-color: yellow;}
 /* ----------CREW------------ */
 .crew {
   background: var(--primary-bkg-bt-color);
-  
-
 }
+
+.crew-list{display: flex;}
+
 .crew-item {
   background: var(--primary-bkg-color);
   padding-top: 0px;
